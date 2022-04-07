@@ -27,7 +27,7 @@ public class BasketController {
         return new ResponseEntity(HttpStatus.OK);
     }
 
-    @DeleteMapping("{basketId}/remove-product")
+    @PutMapping("{basketId}/remove-product")
     public ResponseEntity removeProduct(@PathVariable("basketId") Integer basketId, @RequestBody ProductRequest productRequest){
         if(basketService.removeProduct(basketId, productRequest))
             return new ResponseEntity(HttpStatus.OK);
