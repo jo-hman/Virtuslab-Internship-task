@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.virtuslab.internship.receipt.ReceiptGeneratorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-07T16:28:32" hostname="pop-os" time="0.02">
+  <properties/>
+  <testcase name="shouldGenerateReceiptWith15PercentButNot10PercentDiscountForGivenBasket()" classname="com.virtuslab.internship.receipt.ReceiptGeneratorTest" time="0.019"/>
+  <testcase name="shouldGenerateReceiptWith10PercentDiscountForGivenBasket()" classname="com.virtuslab.internship.receipt.ReceiptGeneratorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
